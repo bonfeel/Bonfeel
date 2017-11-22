@@ -1,0 +1,5 @@
+Map<String, Object> map2 = new HashMap<String, Object>();
+List<Map<String, Object>> maplist = new ArrayList<Map<String, Object>>();
+
+map2.put（key:value）添加
+maplist.add(map2)
