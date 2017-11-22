@@ -1,0 +1,7 @@
+从json中拿到相应key的值
+
+String jay="{\"name\":\"周杰伦\",\"age\":\"40\"}";
+
+String name=JSONObject.fromobject(jay).getString("name");
+
+
