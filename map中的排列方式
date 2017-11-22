@@ -1,0 +1,13 @@
+public static void main(String[] args) {
+    	Map<String, Object> maplist=new TreeMap<String,Object>();
+    	maplist.put("2017-10-26", "第一次");
+    	maplist.put("2017-10-28", "第三次");
+    	maplist.put("2017-10-27", "第二次");
+    	System.out.println(JSONObject.fromObject(maplist));
+    	
+    }
+    TreeMap 按照key的大小排列（key是可比较的，由小到大）
+    
+    HashMap 随机排列
+    
+    LinkedHashMap 按照插入顺序排列
